@@ -1,6 +1,7 @@
+// import { root } from "postcss";
 import "./main.scss";
+import './components/Button/Button'
 
-const add123 = (a, b) => a + b;
+const root = document.querySelector('#root');
 
-const res = add123(222, 3);
-console.log("Helloasda");
+root.innerHTML = `<my-button></my-button>`
